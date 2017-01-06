@@ -1,4 +1,4 @@
-Polaris - dependency-free minimal CLI generator for CommonJS objects
+Polaris - simple CLI generator for CommonJS objects
 
 [![NPM](https://nodei.co/npm/polaris.png)](https://nodei.co/npm/polaris/)
 
@@ -6,7 +6,7 @@ Polaris - dependency-free minimal CLI generator for CommonJS objects
 
 ========
 
-[polaris](https://github.com/imrefazekas/polaris) is an extremely small library to facilitate the development of CLI tools.
+[polaris](https://github.com/imrefazekas/polaris) is a small library to facilitate the development of CLI tools.
 The main concept is to use pure CommonJS objects to define the services and map them to a CLI syntax to be called.
 As a reflective service, [polaris](https://github.com/imrefazekas/polaris) will print out usage information for all services of all/related entities in case of malformed or incomplete call.
 
