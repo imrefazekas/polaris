@@ -1,5 +1,5 @@
 {
-  "name": "polaris",
+  "name": "polaris.js",
   "version": "1.0.0",
   "description": "Tiny libary to expose CommonJS object as CLI tool",
   "keywords": [

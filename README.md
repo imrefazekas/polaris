@@ -26,7 +26,7 @@ Clean and pure CommonJS objects defined once and used everywhere, for all interf
 Command line:
 
 ```javascript
-npm install polaris --save
+npm install polaris.js --save
 ```
 
 Create a subfolder in your working folder
@@ -48,7 +48,7 @@ In package.json code:
 In you script:
 
 ```javascript
-let Polaris = require('polaris')
+let Polaris = require('polaris.js')
 
 let path = require('path')
 
