@@ -14,7 +14,11 @@ My goal was to able to use my existing business objects serving as microservices
 Clean and pure CommonJS objects defined once and used everywhere, for all interfaces / protocols.
 
 [Usage](#usage)
+
 [Call](#call)
+
+[Customize](#customize)
+
 
 
 ## Usage
