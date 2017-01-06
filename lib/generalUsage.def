@@ -1,0 +1,21 @@
+
+
+
+General conventions:
+
+All strings passed as parameters will be added to the actual parameter list.
+String expression with values will be interpreted as options.
+
+Example:
+A service of Smith looks like this:
+	act
+	$ {cli_cmd} Smith act greetings title name opts
+
+can be called as follows:
+
+$ {cli_cmd} Smith act Hello Mr. Smith --suspect_name=neo
+
+"Smith" is the name of the entity providing some services. "act" is the name of the service to be called and X parameters are passed as "greetings" "title" "name" accordingly.
+All Y parameters will be collected, extended by the environment variables and passed as the last "opts" parameter.
+
+

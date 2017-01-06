@@ -1,0 +1,36 @@
+{
+  "name": "polaris",
+  "version": "1.0.0",
+  "description": "Tiny libary to expose CommonJS object as CLI tool",
+  "keywords": [
+    "CLI"
+  ],
+  "homepage": "https://github.com/imrefazekas/polaris",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/imrefazekas/polaris.git"
+  },
+  "bugs": {
+    "url": "http://github.com/imrefazekas/polaris/issues"
+  },
+  "author": {
+    "name": "Imre Fazekas",
+    "email": "mail@imrefazekas.me"
+  },
+  "license": "MIT",
+  "main": "./lib/Polaris.js",
+  "dependencies": {
+    "assign.js": "^2.4.0",
+    "isa.js": "^1.8.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-mocha": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 6.0.0"
+  }
+}
