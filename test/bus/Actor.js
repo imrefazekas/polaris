@@ -1,20 +1,15 @@
 module.exports = {
-	watch: function ( greetings, title, name, opts, callback ) {
+	name: 'Actor',
+	watch: function ( greetings, title, name, terms, ignite, callback ) {
 		console.log( 'Watching >>>>>>>>>>>>', greetings, title, name )
-		return 'done'
-	},
-	actAsync: function ( greetings, opts, callback ) {
-		console.log( 'Acting >>>>>>>>>>>>', greetings, opts )
 		callback( null, 'done' )
 	},
-	actSync: function ( greetings, opts, callback ) {
-		console.log( 'Acting >>>>>>>>>>>>', greetings, opts )
-		return 'done'
+	actAsync: function ( greetings, terms, ignite, callback ) {
+		console.log( 'Acting >>>>>>>>>>>>', greetings, terms )
+		callback( null, 'done' )
 	},
-	actAwait: async function ( greetings, opts ) {
-		console.log( 'Acting >>>>>>>>>>>>', greetings, opts )
-		return new Promise( ( resolve, reject ) => {
-			resolve( 'done' )
-		} )
+	actSync: function ( greetings, terms, ignite, callback ) {
+		console.log( 'Acting >>>>>>>>>>>>', greetings, terms )
+		return 'done'
 	}
 }
