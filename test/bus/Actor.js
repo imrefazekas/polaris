@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'Actor',
 	watch: function ( greetings, title, name, terms, ignite, callback ) {
-		console.log( 'Watching >>>>>>>>>>>>', greetings, title, name )
+		console.log( 'Watching >>>>>>>>>>>>', greetings, title, name, terms )
 		callback( null, 'done' )
 	},
 	actAsync: function ( greetings, terms, ignite, callback ) {
