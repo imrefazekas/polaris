@@ -6,13 +6,11 @@ let _ = require('isa.js')
 let Clerobee = require('clerobee')
 let clerobee = new Clerobee(16)
 
-let Proback = require('proback.js')
-
 let Harcon = require('harcon')
 let inflicter, polaris
 
-let Logger = require('./WinstonLogger')
-let logger = Logger.createWinstonLogger( { console: true, file: 'caller.log', level: 'silly' } )
+let Logger = require('./PinoLogger')
+let logger = Logger.createPinoLogger( { level: 'info' } )
 
 let priviledged = [ 'FireBender', 'Inflicter', 'Mortar' ]
 
