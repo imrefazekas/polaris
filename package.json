@@ -1,6 +1,6 @@
 {
   "name": "polaris.js",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Tiny libary to expose CommonJS object as CLI tool",
   "keywords": [
     "CLI"
@@ -20,13 +20,13 @@
   "license": "MIT",
   "main": "./lib/Polaris.js",
   "dependencies": {
-    "assign.js": "^2.8.0",
-    "isa.js": "^2.2.1"
+    "assign.js": "^2.8.5",
+    "isa.js": "^2.2.2"
   },
   "devDependencies": {
     "chai": "^4.1.2",
-    "harcon": "^8.8.1",
-    "pino": "^4.16.0",
+    "harcon": "^8.8.3",
+    "pino": "^4.17.6",
     "watch": "^1.0.2"
   },
   "engines": {
